@@ -61,3 +61,53 @@ input:focus {
     outline: none;
     border: 3px solid #004b02;
 }
+
+.dog__button--text {
+    margin-top: 48px;
+}
+
+.dog__img--styling {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #009f05;
+    border-radius: 40px;
+    margin-top: 14px;
+}
+
+/*
+
+DUMMY ANIMATION
+
+*/
+
+@keyframes dummy {
+    0% {
+        background-color: #ff9e9e;
+    }
+    50% {
+        background-color: #e07272;
+    }
+    100% {
+        background-color: #ff9e9e;
+    }
+}
+
+.dummy {
+    animation: dummy 1s linear infinite;
+}
+
+.dummy p {
+    font-size: 48px;
+    font-weight: bold;
+    color: #3a1515;
+}
+
+.dummy h1,
+.dummy input,
+.dummy button,
+.dummy img,
+.dummy .dog__img-wrapper,
+.dummy .dog__button--text,
+.dummy .random__dog--button {
+    display: none;
+}
